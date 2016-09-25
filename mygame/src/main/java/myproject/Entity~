@@ -1,0 +1,10 @@
+package myproject;
+import 
+
+
+class Entity{
+public Entity(){
+
+}
+
+}

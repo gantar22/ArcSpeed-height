@@ -1,0 +1,22 @@
+package myproject;
+import java.util.*;
+import java.awt.Rectangle;
+class Map{
+//array of walls
+ArrayList<Entity> walls = new ArrayList<Entity>();
+
+
+public Map(){
+
+}
+
+ void init(){
+walls.add(new Entity(new Rectangle(1,1,599,50)));
+}
+
+public ArrayList<Entity> getMapEntities(){
+return walls;
+}
+
+
+}
